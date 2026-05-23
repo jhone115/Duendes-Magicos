@@ -317,7 +317,7 @@ header {
 .hero {
   background:
     linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)),
-    url('./Imagenes\ -\ Videos/bosque_M.jpg') center/cover no-repeat;
+    url('../Imagenes\ -\ Videos/bosque_M.jpg') center/cover no-repeat;
   color: var(--pergamino);
   min-height: 92vh;
   display: flex;
@@ -447,7 +447,7 @@ header {
 }
 
 .hero-orb {
-  background: url(./Imagenes\ -\ Videos/bosque_M.jpg);
+  background: url(../Imagenes\ -\ Videos/bosque_M.jpg);
   width: min(420px, 45vw);
   height: min(420px, 45vw);
   border-radius: 50%;
@@ -1150,7 +1150,7 @@ header {
 .testimonials-section {
   background:
     linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)),
-    url('./Imagenes\ -\ Videos/aldea_M.jpg') center/cover no-repeat;
+    url('../Imagenes\ -\ Videos/aldea_M.jpg') center/cover no-repeat;
 }
 
 .testimonials-grid {
@@ -1681,7 +1681,7 @@ footer {
 .page-hero-nosotros {
   background:
     linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)),
-    url('./Imagenes\ -\ Videos/nosotros_truco.png') center/cover no-repeat;
+    url('../Imagenes\ -\ Videos/nosotros_truco.png') center/cover no-repeat;
   color: var(--dorado);
   padding: 5rem 1.5rem 4rem;
   text-align: center;
@@ -1692,7 +1692,7 @@ footer {
 .page-hero-catalogo {
   background:
     linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)),
-    url('./Imagenes\ -\ Videos/catalogo_truco.png') center/cover no-repeat;
+    url('../Imagenes\ -\ Videos/catalogo_truco.png') center/cover no-repeat;
   color: var(--dorado);
   padding: 5rem 1.5rem 4rem;
   text-align: center;
@@ -1703,7 +1703,7 @@ footer {
 .page-hero-consejeria {
   background:
     linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)),
-    url('./Imagenes\ -\ Videos/conserjeria_truco.png') center/cover no-repeat;
+    url('../Imagenes\ -\ Videos/conserjeria_truco.png') center/cover no-repeat;
   color: var(--dorado);
   padding: 5rem 1.5rem 4rem;
   text-align: center;
@@ -1714,7 +1714,7 @@ footer {
 .page-hero-contacto {
   background:
     linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)),
-    url('./Imagenes\ -\ Videos/contacto_truco.jpg') center/cover no-repeat;
+    url('../Imagenes\ -\ Videos/contacto_truco.jpg') center/cover no-repeat;
   color: var(--dorado);
   padding: 5rem 1.5rem 4rem;
   text-align: center;
