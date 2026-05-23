@@ -327,9 +327,10 @@ header {
 .hero {
   background:
     linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)),
-    url('../Imagenes\ -\ Videos/bosque_M.jpg') center/cover no-repeat;
+    url('../Imagenes - Videos/bosque_M.jpg') center/cover no-repeat;
+
   color: var(--pergamino);
-  min-height: 92vh;
+  min-height: 100svh;
   display: flex;
   align-items: center;
   position: relative;
@@ -2378,5 +2379,26 @@ footer {
 
   .producto-galeria {
     position: static;
+  }
+  .hero {
+    min-height: auto;
+    padding: 7rem 1.5rem 4rem;
+    align-items: flex-start;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: clamp(2.2rem, 9vw, 4rem);
+    line-height: 1.1;
+    word-break: break-word;
+  }
+
+  .hero-subtitle,
+  .hero p {
+    font-size: 1rem;
+    line-height: 1.6;
   }
 }
