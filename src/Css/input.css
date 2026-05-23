@@ -25,21 +25,15 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
+html,
 body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: var(--pergamino);
-  color: var(--texto);
+  margin: 0;
   overflow-x: hidden;
-  cursor: none;
-  /* cursor personalizado */
+  background: var(--pergamino);
+  color: var(--texto);
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1,
@@ -113,37 +107,53 @@ button {
 
 /* Header / Nav */
 header {
-  background: var(--verde);
-  color: var(--dorado);
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 500;
-  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.3);
+  left: 0;
+
+  width: 100%;
+  z-index: 1000;
+
+  background: var(--verde);
 }
 
 .nav-inner {
-  max-width: 1280px;
-  margin: auto;
-  padding: 1.5rem 1.5rem;
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+
+  padding: 0 1rem;
+  min-height: 70px;
 }
 
 .nav-logo {
-  font-family: 'playfair display', serif;
-  font-size: 1.30rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   color: var(--dorado);
-  transition: color var(--transition);
-  white-space: nowrap;
+
+  transition:
+    color var(--transition),
+    transform var(--transition);
 }
 
 .nav-logo:hover {
   color: var(--blanco);
+  transform: translateY(-1px);
 }
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
 
 .nav-links {
   display: flex;
@@ -663,18 +673,25 @@ header {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 81px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  align-items: start;
 }
 
 .product-card {
+  width: 100%;
+  min-width: 0;
+
   background: var(--blanco);
   border-radius: var(--radius);
   overflow: hidden;
-  width: 400px;
-  border: 1px solid rgba(27, 67, 50, 0.06);
-  box-shadow: 0 4px 16px rgba(27, 67, 50, 0.07);
-  transition: transform var(--transition), box-shadow var(--transition);
+
+  border: 1px solid rgba(27, 67, 50, 0.08);
+  box-shadow: 0 4px 20px rgba(27, 67, 50, 0.06);
+
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition);
 }
 
 .product-card:hover {
@@ -2291,11 +2308,17 @@ footer {
 .producto-tabs {
   border-bottom: 1px solid rgba(27, 67, 50, 0.12);
   display: flex;
-  gap: 0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin-bottom: 1.5rem;
 }
 
 .tab-btn {
+  flex: 1 1 auto;
+  text-align: center;
+  min-width: 120px;
+  white-space: normal;
+  word-break: break-word;
   font-family: 'playfair display', serif;
   font-size: 1rem;
   font-weight: 700;
