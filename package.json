@@ -1,0 +1,12 @@
+{
+  "name": "duendes-magicos",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/Css/input.css -o ./dist/Css/output.css --watch",
+    "build": "tailwindcss -i ./src/Css/input.css -o ./dist/Css/output.css --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

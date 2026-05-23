@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duendes Mágicos | Refugio de Seres Elementales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./Css/output.css">
+</head>
+
+<body>
+
+    <!-- Scripts inyectan header + cart + modal -->
+    <script src="./JavaScript/Componentes.js"></script>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-parallax"></div>
+            <div class="particles-container"></div>
+
+            <div class="hero-inner">
+                <div>
+                    <p class="hero-kicker">Refugio Místico </p>
+                    <h1 class="hero-title">Encuentra a tu Compañero </h1>
+                    <p class="hero-subtitle">Figuras únicas modeladas a mano en porcelanicrón. Lleva la protección, la
+                        armonía y la magia antigua a tu hogar.</p>
+                    <div class="hero-ctas">
+                        <a href="Catalogo.html" class="btn-primary">Explorar Catálogo ✦</a>
+                        <a href="Nosotros.html" class="btn-outline">Nuestra Historia</a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrap">
+                    <div class="hero-orb-ring"></div>
+                    <div class="hero-orb">
+                        <img src="./Imagenes - Videos/d1_bg.png" alt="Duende Principal">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  FEATURES / CATEGORÍAS -->
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <p class="section-kicker">Lo que ofrecemos</p>
+                    <h2 class="section-title">Nuestras Familias </h2>
+                    <div class="section-divider">✦</div>
+                    <p class="section-desc">Cada ser nace de la tierra, el agua, el viento. Encuentra el
+                        elemento que resuena con tu espíritu.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card scroll-reveal">
+                        <span class="feature-icon"><svg width="60" height="60" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="mushroomGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#4B5D16" />
+                                        <stop offset="100%" stop-color="#C5A028" />
+                                    </linearGradient>
+                                </defs>
+                                <path
+                                    d="M12 6C8 6 6 9.4 6 11.4C6 12.6 8.4 13 12 13C15.6 13 18 12.6 18 11.4C18 9.4 16 6 12 6Z"
+                                    stroke="url(#mushroomGradient)" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M10.8 13C10.8 15.4 10.4 17.4 12 18C13.6 17.4 13.2 15.4 13.2 13"
+                                    stroke="url(#mushroomGradient)" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <circle cx="12" cy="9" r="0.8" fill="url(#mushroomGradient)" />
+                                <circle cx="9.5" cy="10.5" r="0.5" fill="url(#mushroomGradient)" />
+                                <circle cx="14.5" cy="10.5" r="0.5" fill="url(#mushroomGradient)" />
+                            </svg>
+                        </span>
+                        <h3>Duendes </h3>
+                        <p>Figuras únicas modeladas a mano en porcelanicrón. Cada duende es irrepetible, con su propia
+                            alma y propósito.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal" style="transition-delay:0.1s">
+                        <span class="feature-icon"><svg width="60" height="60" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 2.5C12 2.5 6 9 6 14C6 17.3137 8.68629 20 12 20C15.3137 20 18 17.3137 18 14C18 9 12 2.5 12 2.5Z"
+                                    stroke="url(#grad2)" stroke-width="1.5" />
+                                <path d="M12 17V17.01" stroke="#AAB7B8" stroke-width="2" stroke-linecap="round" />
+                                <path d="M14 13C14 13 13.5 11 12 11" stroke="white" stroke-opacity="0.5"
+                                    stroke-width="1" stroke-linecap="round" />
+                                <defs>
+                                    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#4de4ff;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#74b9ff;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg></span>
+                        <h3>Esencias</h3>
+                        <p>Línea de fragancias místicas disponibles en dos fórmulas: Hidrosolubles (base agua) y Óleos
+                            Concentrados (base aceite).</p>
+                    </div>
+
+                    <div class="feature-card scroll-reveal" style="transition-delay:0.3s">
+                        <span class="feature-icon"><svg width="60" height="60" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 21C12 21 12 14 12 3M12 10C12 10 16 9 18 6M12 15C12 15 8 14 6 11M12 7C12 7 17 12 19 14"
+                                    stroke="url(#grad3)" stroke-width="1.5" stroke-linecap="round" />
+                                <circle cx="12" cy="3" r="1.5" fill="#55efc4" />
+                                <defs>
+                                    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#55efc4;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#00b894;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                            </svg></span>
+                        <h3>Consejería Mística</h3>
+                        <p>Sesiones personalizadas de orientación esotérica donde se brinda guía, limpieza de espacios y
+                            armonización personal.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTOS DESTACADOS (Preview) -->
+        <section class="section catalog-section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <p class="section-kicker">Categorias magicas</p>
+                    <h2 class="section-title">productos encantados</h2>
+                    <div class="section-divider">✦</div>
+                    <p class="section-desc">Seres que aguardan encontrar su hogar. Cada uno fue creado con intención y
+                        amor en nuestro taller.</p>
+                </div>
+
+                <div class="product-grid" id="productGrid">
+                    <!-- Renderizado por JS -->
+                </div>
+
+                <div style="text-align:center;margin-top:3rem;">
+                    <a href="Catalogo.html" class="btn-primary">Ver Catálogo Completo ✦</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROCESO / CÓMO FUNCIONA -->
+        <section class="section" style="background:
+    linear-gradient(rgba(27, 67, 50, 0.75), rgba(27, 67, 50, 0.75)),
+    url('./Imagenes\ -\ Videos/aldea_M.jpg') center/cover no-repeat;">
+            <div class="section-inner">
+                <div class="section-header">
+                    <p class="section-kicker" style="color:rgba(212,175,55,0.6)">El Proceso</p>
+                    <h2 class="section-title light">¿Cómo Adoptar?</h2>
+                    <div class="section-divider" style="color:var(--dorado)">✦</div>
+                </div>
+
+                <div class="stats-grid" style="max-width:900px;margin:0 auto 4rem;">
+                    <div class="stat-item scroll-reveal">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Adopciones Exitosas</span>
+                    </div>
+                    <div class="stat-item scroll-reveal">
+                        <span class="stat-number">10</span>
+                        <span class="stat-label">Años de Magia</span>
+                    </div>
+                    <div class="stat-item scroll-reveal">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Hecho a Mano</span>
+                    </div>
+                    <div class="stat-item scroll-reveal">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Familias Elementales</span>
+                    </div>
+                </div>
+
+                <div class="features-grid" style="max-width:900px;margin:auto;">
+                    <div class="feature-card scroll-reveal"
+                        style="background:rgba(255,255,255,0.06);border-color:rgba(212,175,55,0.15);">
+                        <span class="feature-icon"><svg width="60" height="60" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#C5A028" />
+                                        <stop offset="100%" stop-color="#EEDC82" />
+                                    </linearGradient>
+                                </defs>
+                                <path d="M2 12C2 12 5 5 12 5C19 5 22 12 22 12C22 12 19 19 12 19C5 19 2 12 2 12Z"
+                                    stroke="url(#goldGrad)" stroke-width="1.5" />
+                                <circle cx="12" cy="12" r="3" stroke="url(#goldGrad)" stroke-width="1.5" />
+                                <circle cx="12" cy="12" r="1" fill="url(#goldGrad)" />
+                            </svg></span>
+                        <h3 style="color:var(--dorado)">1. Explora</h3>
+                        <p style="color:rgba(244,241,234,0.75)">Navega el catálogo y descubre qué familia elemental
+                            resuena contigo.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal"
+                        style="background:rgba(255,255,255,0.06);border-color:rgba(212,175,55,0.15);transition-delay:0.1s">
+                        <span class="feature-icon"><svg width="60" height="60" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 3C10.5 3 9 3.5 7.8 4.2C10.5 5.5 12.3 8.3 12.3 11.5C12.3 14.7 10.5 17.5 7.8 18.8C9 19.5 10.5 20 12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 3 12 3Z"
+                                    stroke="url(#goldGrad)" stroke-width="1.5" stroke-linecap="round" />
+                                <path d="M7 12H3M5 10V14" stroke="url(#goldGrad)" stroke-width="1"
+                                    stroke-linecap="round" />
+                            </svg></span>
+                        <h3 style="color:var(--dorado)">2. Conecta</h3>
+                        <p style="color:rgba(244,241,234,0.75)">¿Dudas? Pide una sesión de consejería para elegir con
+                            sabiduría.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal"
+                        style="background:rgba(255,255,255,0.06);border-color:rgba(212,175,55,0.15);transition-delay:0.2s">
+                        <span class="feature-icon"><svg width="60" height="60" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="goldGradAdoption" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#C5A028" />
+                                        <stop offset="100%" stop-color="#EEDC82" />
+                                    </linearGradient>
+                                </defs>
+
+                                <circle cx="12" cy="12" r="11" stroke="url(#goldGradAdoption)" stroke-width="1"
+                                    opacity="0.4" />
+
+                                <path d="M7 18C5 16.5 4 14 4 12C4 10 5 9 6 9C7 9 8 11 9 12"
+                                    stroke="url(#goldGradAdoption)" stroke-width="1.2" stroke-linecap="round" />
+                                <path d="M17 18C19 16.5 20 14 20 12C20 10 19 9 18 9C17 9 16 11 15 12"
+                                    stroke="url(#goldGradAdoption)" stroke-width="1.2" stroke-linecap="round" />
+
+                                <path d="M12 18V12" stroke="url(#goldGradAdoption)" stroke-width="1.2"
+                                    stroke-linecap="round" />
+                                <path d="M12 13C12 13 10 11 10 9C10 7 12 6 12 6C12 6 14 7 14 9C14 11 12 13 12 13Z"
+                                    stroke="url(#goldGradAdoption)" stroke-width="1.2" stroke-linejoin="round" />
+                                <path d="M12 11C13.5 11 15 10 15 8" stroke="url(#goldGradAdoption)" stroke-width="1"
+                                    stroke-linecap="round" />
+                                <path d="M12 11C10.5 11 9 10 9 8" stroke="url(#goldGradAdoption)" stroke-width="1"
+                                    stroke-linecap="round" />
+
+                                <circle cx="12" cy="14" r="0.8" fill="url(#goldGradAdoption)" />
+                            </svg>
+                        </span>
+                        <h3 style="color:var(--dorado)">3. Adopta</h3>
+                        <p style="color:rgba(244,241,234,0.75)">Completa la adopción. Tu elemental llegará consagrado y
+                            con su historia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIOS MÁGICOS -->
+        <section class="section testimonials-section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <p class="section-kicker" style="color:rgba(212,175,55,0.6)">Historias Reales</p>
+                    <h2 class="section-title light">Testimonios Mágicos</h2>
+                    <div class="section-divider" style="color:var(--dorado)">✦</div>
+                </div>
+
+                <div class="testimonials-grid">
+
+                    <div class="testimonial-card scroll-reveal">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">
+                            "Desde que el Duende del Bosque llegó a mi hogar, la energía cambió completamente. Mi
+                            espacio se siente más tranquilo y lleno de vida. Es una pieza hermosa e irrepetible."
+                        </p>
+                        <div class="testimonial-author">
+                            <img class="testimonial-avatar" src="https://placehold.co/80x80/2D6A4F/D4AF37?text=LM"
+                                alt="Lucía Mora">
+                            <div class="testimonial-author-info">
+                                <strong>Lucía Mora</strong>
+                                <span>Bogotá, Colombia — Adoptante del Bosque</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card scroll-reveal" style="transition-delay:0.1s">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">
+                            "La consejería mística fue reveladora. Encontré exactamente el elemental que necesitaba para
+                            mi meditación. El proceso fue hermoso y muy personal."
+                        </p>
+                        <div class="testimonial-author">
+                            <img class="testimonial-avatar" src="https://placehold.co/80x80/2D6A4F/D4AF37?text=CR"
+                                alt="Carlos Ruiz">
+                            <div class="testimonial-author-info">
+                                <strong>Carlos Ruiz</strong>
+                                <span>Medellín, Colombia — Adoptante del Viento</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card scroll-reveal" style="transition-delay:0.2s">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <p class="testimonial-text">
+                            "Los óleos elementales son mágicos. Uso el de Tierra Sagrada en mis rituales y siento una
+                            conexión profunda con la energía de mis ancestros."
+                        </p>
+                        <div class="testimonial-author">
+                            <img class="testimonial-avatar" src="https://placehold.co/80x80/2D6A4F/D4AF37?text=AP"
+                                alt="Ana Pérez">
+                            <div class="testimonial-author-info">
+                                <strong>Ana Pérez</strong>
+                                <span>Cali, Colombia — Adoptante del Agua</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERÍA DE ADOPCIONES EXITOSAS -->
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <p class="section-kicker">Hogares Encantados</p>
+                    <h2 class="section-title">Galería de Adopciones Exitosas</h2>
+                    <div class="section-divider">✦</div>
+                    <p class="section-desc">Mira cómo nuestros elementales transforman los espacios de sus nuevas
+                        familias.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item scroll-reveal">
+                        <img src="./Imagenes - Videos/casa_truco.jpg" alt="Adopción 1">
+                        <div class="gallery-overlay">
+                            <strong>Duende del Bosque</strong>
+                            <span>Hogar de Lucía — Bogotá</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item scroll-reveal" style="transition-delay:0.1s">
+                        <img src="./Imagenes - Videos/estudio_truco.jpg" alt="Adopción 2">
+                        <div class="gallery-overlay">
+                            <strong>Guardián del Viento</strong>
+                            <span>Estudio de Carlos — Medellín</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item scroll-reveal" style="transition-delay:0.15s">
+                        <img src="./Imagenes - Videos/altar_truco.jpg" alt="Adopción 3">
+                        <div class="gallery-overlay">
+                            <strong>Mensajero del Éter</strong>
+                            <span>Altar de Ana — Cali</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item scroll-reveal" style="transition-delay:0.2s">
+                        <img src="./Imagenes - Videos/montaña_truco.jpg" alt="Adopción 4">
+                        <div class="gallery-overlay">
+                            <strong>Sabio de la Montaña</strong>
+                            <span>Jardín de Pedro — Manizales</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item scroll-reveal" style="transition-delay:0.25s">
+                        <img src="./Imagenes - Videos/luna_truco.jpg" alt="Adopción 5">
+                        <div class="gallery-overlay">
+                            <strong>Esencia de Luna Nueva</strong>
+                            <span>Ritual de Sofía — Cartagena</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item scroll-reveal" style="transition-delay:0.3s">
+                        <img src="./Imagenes - Videos/templo_truco.jpg" alt="Adopción 6">
+                        <div class="gallery-overlay">
+                            <strong>Óleo de Fuego</strong>
+                            <span>Templo de Renata — Bucaramanga</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <div class="cta-banner">
+            <h2>¿Listo para encontrar tu Elemental?</h2>
+            <p> Accede a precios exclusivos, adopciones y consejería personalizada.</p>
+            <button onclick="toggleModal('loginModal')" class="btn-cta-dark">Unirse al Refugio ✦</button>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="Home.html" class="nav-logo">DUENDES MÁGICOS</a>
+                    <p>Refugio místico de seres magicos. Hecho a mano con magia y propósito desde las montañas
+                        colombianas.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/duendes_magicos1711?igsh=ZGtncTlzeHIxeWF4"
+                            class="social-link" target="_blank" title="Instagram"><svg width="32" height="32"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="instaGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#C13584;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#F56040;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url(#instaGradient)"
+                                    d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5a4.25 4.25 0 0 0-4.25 4.25v8.5a4.25 4.25 0 0 0 4.25 4.25h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-2.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z" />
+                            </svg></a>
+                        <a href="https://wa.me/573209969023" class="social-link" target="_blank" title="WhatsApp"><svg
+                                width="32" height="32" viewBox="0 0 24 24" fill="#25D366"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Explorar</h4>
+                    <ul>
+                        <li><a href="Home.html">Inicio</a></li>
+                        <li><a href="Nosotros.html">Nosotros</a></li>
+                        <li><a href="Catalogo.html">Catálogo</a></li>
+                        <li><a href="Consejeria.html">Consejería</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Términos de Adopción</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                        <li><a href="#">Envíos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="Contacto.html">Formulario</a></li>
+                        <li><a href="mailto:duendesmagicosmsj@gmail.com?subject=Consulta%20sobre%20Duendes&body=Hola,%20me%20gustaría%20saber%20más%20sobre%20Duendes"
+                                target="_blank">Duendesmagicosmsj@gmail.com</a></li>
+                        <li><a href="https://wa.me/573209969023" target="_blank">WhatsApp</a></li>
+                        <li><a href="https://maps.google.com/?q=Duendes+Mágicos" target="_blank">Ubicación</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Duendes Mágicos. Todos los derechos reservados.</span>
+                <span>Hecho con ❤️ y magia en Colombia</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./JavaScript/Funcionalidades.js"></script>
+    
+</body>
+
+</html>

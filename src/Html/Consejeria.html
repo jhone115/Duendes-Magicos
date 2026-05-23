@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consejería Mística | Duendes Mágicos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../Css/input.css">
+</head>
+
+<body>
+    <script src="../JavaScript/Componentes.js"></script>
+
+    <main>
+
+        <!-- Hero -->
+        <div class="page-hero-consejeria">
+            <div class="particles-container"></div>
+            <p class="page-hero-kicker">Guía Energetica Personalizada</p>
+            <h1 class="page-hero-title">Consejería Mística</h1>
+            <p class="page-hero-sub">¿No sabes qué compañero necesita tu espíritu? Déjate guiar. Tenemos un camino para
+                cada uno.</p>
+        </div>
+
+        <!-- Servicios de Consejería -->
+        <section class="section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <p class="section-kicker">Nuestros Servicios</p>
+                    <h2 class="section-title">Elige tu Camino</h2>
+                    <div class="section-divider">✦</div>
+                    <p class="section-desc">Cada sesión es única y personalizada. Trabajamos con tu energía, tu entorno
+                        y tus intenciones para encontrar el compañero perfecto para ti.</p>
+                </div>
+
+                <div class="consejeria-grid">
+
+                    <div class="consejeria-card scroll-reveal">
+                        <span class="consejeria-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 21C12 21 8.5 17 8.5 12.5C8.5 10.0147 10.067 8 12 8M12 21C12 21 15.5 17 15.5 12.5C15.5 10.0147 13.933 8 12 8"
+                                    stroke="#1A4D4E" stroke-width="1.5" />
+                                <path
+                                    d="M8.5 12.5C8.5 12.5 5 13.5 5 11C5 8.79086 6.79086 7 9 7M15.5 12.5C15.5 12.5 19 13.5 19 11C19 8.79086 17.2091 7 15 7"
+                                    stroke="#1A4D4E" stroke-width="1.5" />
+                                <path
+                                    d="M12 8C12 8 9.5 5.5 9.5 3C9.5 1.61929 10.6193 0.5 12 0.5M12 8C12 8 14.5 5.5 14.5 3C14.5 1.61929 13.3807 0.5 12 0.5"
+                                    stroke="#1A4D4E" stroke-width="1.5" />
+
+                                <circle cx="12" cy="11.5" r="2.5" fill="#D4AF37" fill-opacity="0.1" stroke="#D4AF37"
+                                    stroke-width="1" />
+                                <path d="M12 11.5L12 3" stroke="#D4AF37" stroke-width="1" stroke-linecap="round" />
+                            </svg></span>
+                        <h3>Consejería Espiritual</h3>
+                        <p>Una sesión de 60 minutos para analizar tu energía, tu entorno y tus intenciones. en base a
+                            problemas actuales o futuros</p>
+                        <span class="consejeria-price">$80.000 COP</span>
+                        <button onclick="abrirAgenda('Consulta Inicial')" class="btn-adopt">Agendar Sesión</button>
+                    </div>
+
+                    <div class="consejeria-card scroll-reveal" style="transition-delay:0.2s">
+                        <span class="consejeria-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 3C12 3 7.5 7.5 7.5 12C7.5 16.5 12 21 12 21C12 21 16.5 16.5 16.5 12C16.5 7.5 12 3 12 3Z"
+                                    stroke="#1A4D4E" stroke-width="1.5" />
+                                <path d="M12 8V16M8 12H16" stroke="#1A4D4E" stroke-width="1.5" stroke-linecap="round" />
+                                <path d="M18 6L16.5 8.5M21 9L18 9" stroke="#D4AF37" stroke-width="1" />
+                                <path d="M6 6L7.5 8.5M3 9L6 9" stroke="#D4AF37" stroke-width="1" />
+                            </svg></span>
+                        <h3>Consejería de Limpiezas y Protección Energetica</h3>
+                        <p>Consulta de 60 minutos para la energia que te rodea y poder darle un tratamiento de limpieza,
+                            a los problemas de tu entorno</p>
+                        <span class="consejeria-price">$220.000 COP</span>
+                        <button onclick="abrirAgenda('Armonización')" class="btn-adopt">Agendar Sesión</button>
+                    </div>
+
+                    <div class="consejeria-card scroll-reveal" style="transition-delay:0.3s">
+                        <span class="consejeria-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 21C12 21 3 14 3 8.5C3 5.46243 5.46243 3 8.5 3C10.1381 3 11.2 3.7 12 4.5C12.8 3.7 13.8619 3 15.5 3C18.5376 3 21 5.46243 21 8.5C21 14 12 21 12 21Z"
+                                    stroke="#1A4D4E" stroke-width="1.5" />
+                                <path
+                                    d="M12 15C12 15 9.5 12.5 9.5 10C9.5 8.61929 10.6193 7.5 12 7.5C13.3807 7.5 14.5 8.61929 14.5 10C14.5 12.5 12 15 12 15Z"
+                                    fill="#1A4D4E" fill-opacity="0.1" stroke="#1A4D4E" stroke-width="1.5" />
+                                <circle cx="12" cy="11.5" r="1.5" fill="#D4AF37" stroke="#D4AF37" stroke-width="1" />
+                                <path d="M12 4V7" stroke="#D4AF37" stroke-width="1" stroke-linecap="round" />
+                            </svg></span>
+                        <h3>Consejeria Emocional</h3>
+                        <p>Consulta de 60 minutos para canalizar tus pensamientos que pueden tener un impacto en tu vida
+                            y afectar tu energia espiritual.</p>
+                        <span class="consejeria-price">Desde $350.000</span>
+                        <button onclick="abrirAgenda('Encargo Personalizado')" class="btn-adopt">Solicitar
+                            Encargo</button>
+                    </div>
+
+                    <div class="consejeria-card scroll-reveal" style="transition-delay:0.1s">
+                        <span class="consejeria-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 21C12 21 12 12.5 12 12.5M12 12.5C12 12.5 13.5 14 16 14C18.5 14 20 12.5 20 12.5M12 12.5C12 12.5 10.5 14 8 14C5.5 14 4 12.5 4 12.5"
+                                    stroke="#1A4D4E" stroke-width="1.5" stroke-linecap="round" />
+                                <path d="M12 12.5C12 12.5 13 11 13 9M12 12.5C12 12.5 11 11 11 9" stroke="#1A4D4E"
+                                    stroke-width="1.5" stroke-linecap="round" />
+                                <path d="M12 4L11.5 6L12.5 6L12 4ZM12 6L11.5 7L12.5 7L12 6Z" fill="#D4AF37"
+                                    stroke="#D4AF37" stroke-width="1" />
+                            </svg></span>
+                        <h3>Consejeria de los Duendes</h3>
+                        <p>Una sesion de 60 minutos. ¿Dudas sobre los duendes? Nosotros te ayudamos con esta sesion te
+                            explicaremos como pueden ayudarte en tu vida y la magia que los rodea</p>
+                        <span class="consejeria-price">$90.000 COP</span>
+                        <button onclick="abrirAgenda('Reconsagración')" class="btn-adopt">Agendar Sesión</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Cuidado del Elemental (Acordeón) -->
+        <section class="section care-section">
+            <div class="section-inner">
+                <div class="section-header">
+                    <p class="section-kicker">Guía de Cuidado</p>
+                    <h2 class="section-title">Cuidado de tu compañero</h2>
+                    <div class="section-divider">✦</div>
+                    <p class="section-desc">Una vez que tu compañero llega a casa, aquí encontrarás todo lo que
+                        necesitas saber para mantener su energía activa y su vínculo contigo fortalecido.</p>
+                </div>
+
+                <div class="accordion">
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>🌙 Bienvenida </span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <div class="accordion-body-inner">
+                                Cuando tu compañero llegue a casa, tómalo y llevalo a la cocina por la primera noche,
+                                despues ya podras ubicarlo en el lugar que desees, pero es importante que lo lleves a la
+                                cocina por la primera noche para que se adapte a su nuevo hogar y a tu energia, ademas
+                                de que es un lugar de transito energetico en el hogar, donde se mezclan las energias de
+                                los habitantes con la abundancia de la naturaleza, lo que ayuda a que el compañero se
+                                adapte mas
+                                facilmente a su nuevo entorno.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>✦ Ponle un Nombre</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <div class="accordion-body-inner">
+                                Cuando haya pasado la noche en la cocina, es hora de ponerle un nombre a tu companero.
+                                El que tu quieras normalmente el te lo dira en sueños o en tu intuicion, pero si no
+                                puedes ponerle el que quieras.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>☀️ Darle Dulces y Monedas</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <div class="accordion-body-inner">
+                                Cuando ya tenga nombre y este ubicado en su lugar ideal, es hora de darle dulces y
+                                monedas de la menor denominacion. Para que se sienta mas confortable y se adapte a su
+                                nuevo hogar.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>🌿 Pedirle Favores</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <div class="accordion-body-inner">
+                                Al realizar los pasos previos, Tu compañero estara listo para ayudarte para lo que lo
+                                necesites, es hora de pedirle favores, puedes pedirle que te ayude a a mejorar tu
+                                energia, a protegerte o a tener mayor abundancia en el hogar.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>🎨 Cuidado Físico del Porcelanicrón</span>
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-body">
+                            <div class="accordion-body-inner">
+                                Limpia el polvo con un pincel suave o paño de microfibra seco. No uses agua directamente
+                                sobre zonas pintadas. Si el compañero tiene accesorios de metal, frota suavemente con un
+                                paño ligeramente húmedo y seca de inmediato. Las piezas de porcelanicrón son frágiles:
+                                manéjalas con cuidado y no las dejes en zonas de tráfico alto. En caso de ruptura leve,
+                                puedes contactarnos para asesoría de restauración artesanal.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal de Agenda (simplificado) -->
+        <div id="agendaModal" class="modal-overlay hidden">
+            <div class="modal-box" data-modal-content>
+                <button class="modal-close" onclick="toggleModal('agendaModal')">×</button>
+                <div class="modal-icon">🌙</div>
+                <h2 class="modal-title">Agendar Sesión</h2>
+                <p class="modal-sub" id="agendaTipo">Consulta Inicial</p>
+                <form onsubmit="submitAgenda(event)">
+                    <div class="form-group">
+                        <label>Tu Nombre</label>
+                        <input type="text" placeholder="Nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Correo Elemental</label>
+                        <input type="email" placeholder="tu@correo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>WhatsApp</label>
+                        <input type="tel" placeholder="+57 300 000 0000">
+                    </div>
+                    <div class="form-group">
+                        <label>¿Cuándo prefieres la sesión?</label>
+                        <input type="date" min="">
+                    </div>
+                    <div class="form-group">
+                        <label>¿Qué buscas en esta sesión?</label>
+                        <textarea rows="3" placeholder="Cuéntanos brevemente tu intención..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">
+                        Enviar Solicitud ✦
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- CTA Final -->
+        <div class="cta-banner">
+            <h2>¿Tienes dudas? Escríbenos</h2>
+            <p>Estamos aquí para guiarte en cada paso de tu camino mágico.</p>
+            <a href="Contacto.html" class="btn-cta-dark">Contactarnos ✦</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="Home.html" class="nav-logo">DUENDES MÁGICOS</a>
+                    <p>Refugio místico de seres magicos. Hecho a mano con magia y propósito desde las montañas
+                        colombianas.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/duendes_magicos1711?igsh=ZGtncTlzeHIxeWF4"
+                            class="social-link" target="_blank" title="Instagram"><svg width="32" height="32"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="instaGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#C13584;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#F56040;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url(#instaGradient)"
+                                    d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5a4.25 4.25 0 0 0-4.25 4.25v8.5a4.25 4.25 0 0 0 4.25 4.25h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-2.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z" />
+                            </svg></a>
+                        <a href="https://wa.me/573209969023" class="social-link" target="_blank" title="WhatsApp"><svg
+                                width="32" height="32" viewBox="0 0 24 24" fill="#25D366"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Explorar</h4>
+                    <ul>
+                        <li><a href="Home.html">Inicio</a></li>
+                        <li><a href="Nosotros.html">Nosotros</a></li>
+                        <li><a href="Catalogo.html">Catálogo</a></li>
+                        <li><a href="Consejeria.html">Consejería</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Términos de Adopción</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                        <li><a href="#">Envíos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="Contacto.html">Formulario</a></li>
+                        <li><a href="mailto:duendesmagicosmsj@gmail.com?subject=Consulta%20sobre%20Duendes&body=Hola,%20me%20gustaría%20saber%20más%20sobre%20Duendes"
+                                target="_blank">Duendesmagicosmsj@gmail.com</a></li>
+                        <li><a href="https://wa.me/573209969023" target="_blank">WhatsApp</a></li>
+                        <li><a href="https://maps.google.com/?q=Duendes+Mágicos" target="_blank">Ubicación</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Duendes Mágicos. Todos los derechos reservados.</span>
+                <span>Hecho con ❤️ y magia en Colombia</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JavaScript/Funcionalidades.js"></script>
+    <script>
+        function abrirAgenda(tipo) {
+            document.getElementById('agendaTipo').textContent = tipo;
+            toggleModal('agendaModal');
+        }
+
+        function submitAgenda(e) {
+            e.preventDefault();
+            toggleModal('agendaModal');
+            showToast('¡Solicitud enviada! Te contactaremos pronto 🌙');
+        }
+
+        // Poner fecha mínima = hoy
+        const dateInput = document.querySelector('input[type="date"]');
+        if (dateInput) {
+            dateInput.min = new Date().toISOString().split('T')[0];
+        }
+    </script>
+
+</body>
+
+</html>
